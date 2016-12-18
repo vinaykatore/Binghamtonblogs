@@ -1,0 +1,12 @@
+<div class="section" ng-cloak>
+	<h3>{{headingTitle}}</h3>
+	<div>
+		<table border="1">
+			<tr ng-repeat="user in users">
+				<td>{{user.firstName + " "+ user.lastName}}</td>
+				<td>{{user.location}}</td>
+			</tr>
+			
+		</table>
+	</div>
+</div>
